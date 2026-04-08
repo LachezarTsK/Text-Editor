@@ -140,7 +140,7 @@ export default function TextConverter() {
         >
           Reverse Words
         </button>
-        {/* button Reverse Sentence */}
+        {/* button Reverse Text */}
         <button
           className="button"
           onClick={() => {
@@ -149,7 +149,7 @@ export default function TextConverter() {
             setIndexPreviousTexts(indexPreviousTexts + 1);
           }}
         >
-          Reverse Sentence
+          Reverse Text
         </button>
         {/* button Undo */}
         <button className="button" onClick={handleUndo}>
