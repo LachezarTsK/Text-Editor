@@ -1,5 +1,7 @@
 Tags: React, Vite, JavaScript, HTML, CSS.
 
+To run the application, click here: https://lachezartsk.github.io/Text-Editor/
+
 The Text Editor has the following functionalities:<br/>
 - to upper case<br/>
 - to lower case<br/>
@@ -10,5 +12,3 @@ The Text Editor has the following functionalities:<br/>
 - reverse text<br/>
 - undo<br/>
 - redo
-
-To run the application, click here: https://lachezartsk.github.io/Text-Editor/
