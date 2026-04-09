@@ -62,7 +62,7 @@ export default function TextConverter() {
       Math.min(indexPreviousTexts + 1, previousTexts.length - 1),
     );
   }
-  console.log(indexPreviousTexts);
+
   return (
     <div>
       <div className="dislpay-container">
@@ -138,7 +138,7 @@ export default function TextConverter() {
             setIndexPreviousTexts(indexPreviousTexts + 1);
           }}
         >
-          Reverse Words
+          Reverse Characters within Each Character Group
         </button>
         {/* button Reverse Text */}
         <button
@@ -149,7 +149,7 @@ export default function TextConverter() {
             setIndexPreviousTexts(indexPreviousTexts + 1);
           }}
         >
-          Reverse Text
+          Reverse Whole Text
         </button>
         {/* button Undo */}
         <button className="button" onClick={handleUndo}>
