@@ -129,7 +129,7 @@ export default function TextConverter() {
         >
           Clear Space
         </button>
-        {/* button Reverse Words */}
+        {/* button Reverse Characters within Each Character Group */}
         <button
           className="button"
           onClick={() => {
@@ -140,7 +140,7 @@ export default function TextConverter() {
         >
           Reverse Characters within Each Character Group
         </button>
-        {/* button Reverse Text */}
+        {/* button Reverse Whole Text */}
         <button
           className="button"
           onClick={() => {
