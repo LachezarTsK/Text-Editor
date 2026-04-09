@@ -129,7 +129,7 @@ export default function TextConverter() {
         >
           Clear Space
         </button>
-        {/* button Reverse Characters within Each Character Group */}
+        {/* button Reverse Characters in Each Group */}
         <button
           className="button"
           onClick={() => {
@@ -138,7 +138,7 @@ export default function TextConverter() {
             setIndexPreviousTexts(indexPreviousTexts + 1);
           }}
         >
-          Reverse Characters within Each Character Group
+          Reverse Characters in Each Group
         </button>
         {/* button Reverse Whole Text */}
         <button
