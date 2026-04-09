@@ -15,7 +15,7 @@ The Text Editor has the following functionalities:<br/>
 - undo<br/>
 - redo
 
-//* Word is defined as any group of printable characters that contain at least one letter or one digit. 
+/* Word is defined as any group of printable characters that contain at least one letter or one digit. 
 The method can be easily adjusted according to whatever definition of word is chosen.
 
 Different text editors on the internet have different word definitions: 
